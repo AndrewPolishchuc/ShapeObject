@@ -25,7 +25,7 @@ public class Circle extends GeometricFigure {
     public void displayFigureData() {
         StringBuilder outputString = new StringBuilder();
         draw();
-        outputString.append("круг, площадь: ").append(getArea()).append("ед., радиусом ");
+        outputString.append("Фигура: круг, площадь: ").append(getArea()).append("ед., радиусом ");
         outputString.append(getRadius()).append("ед., цвет: ").append(getColor());
         System.out.println(outputString.toString());
     }

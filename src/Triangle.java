@@ -32,7 +32,7 @@ public class Triangle extends GeometricFigure{
     public void displayFigureData() {
         StringBuilder outputString = new StringBuilder();
         draw();
-        outputString.append("треугольник, площадь: ").append(getArea()).append("ед., со сторонами ");
+        outputString.append("Фигура: треугольник, площадь: ").append(getArea()).append("ед., со сторонами ");
         outputString.append(seeSideLengths()).append(", цвет: ").append(getColor());
         System.out.println(outputString.toString());
     }

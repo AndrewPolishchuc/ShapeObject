@@ -30,7 +30,7 @@ public class Trapezoid extends GeometricFigure {
     public void displayFigureData() {
         StringBuilder outputString = new StringBuilder();
         draw();
-        outputString.append("трапеция, площадь: ").append(getArea()).append("ед., высота ");
+        outputString.append("Фигура: трапеция, площадь: ").append(getArea()).append("ед., высота ");
         outputString.append(getHeight()).append("ед., цвет: ").append(getColor());
         System.out.println(outputString.toString());
     }

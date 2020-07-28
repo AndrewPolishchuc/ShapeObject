@@ -25,7 +25,7 @@ public class Square extends GeometricFigure {
     public void displayFigureData() {
         StringBuilder outputString = new StringBuilder();
         draw();
-        outputString.append("квадрат, площадь: ").append(getArea()).append("ед., сторона ");
+        outputString.append("Фигура: квадрат, площадь: ").append(getArea()).append("ед., сторона ");
         outputString.append(getSideLenth()).append("ед., цвет: ").append(getColor());
         System.out.println(outputString.toString());
     }
